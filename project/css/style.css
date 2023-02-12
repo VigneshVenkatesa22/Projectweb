@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.header1{
+    background-color: rgb(234, 228, 228);
+    border: 1px solid rgb(0, 0, 0);
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.left{
+    display: flex;
+    margin-left: 150px;
+    
+}
+.cartimg{
+    width:20px;
+    height: 20px;
+    margin-top: 5px;
+}
+.shopping{
+    font-size: 13px;
+    margin-left: 10px;
+    margin-top: 6px;
+}
+.user{
+    width:20px;
+    height: 20px;
+    margin-top: 5px;
+}
+.right{
+    display: flex;
+    margin-right: 200px;
+}
+.login{
+    font-size: 13px;
+    margin-left: 10px;
+    margin-top: 4px;
+}
+.header2{
+    display: flex;
+    justify-content: space-between;
+   
+    height: 100px;
+}
+.brandlogo{
+   margin-left: 170px; 
+   padding-top: 12px;
+}
+.brand{
+    border-radius: 100%;
+}
+.number{
+    padding-top: 30px;
+    padding-right: 170px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 700px) {
+    .left{
+        display: flex;
+        margin-left: 250px;
+    }
+  }
