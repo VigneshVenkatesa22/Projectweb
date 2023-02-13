@@ -5,7 +5,7 @@
 .header1{
     background-color: rgb(234, 228, 228);
     border: 1px solid rgb(0, 0, 0);
-    
+    height: 30px;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -173,9 +173,6 @@ form{
 }
 .content3{
     display: flex;
-    height: 300px;
-    
-    border: 1px solid red;
 }
 .vdo{
     width: 50%;
@@ -183,22 +180,6 @@ form{
 }
 .ad2{
 
- position: relative;
-
- border: 1px solid green;
-}
-.container{
-    background-color: blanchedalmond;
-    width: 300px;
-   
-    position: relative;
-    top: 7%;
-    left: 10%;
-   
-
-}
-.container  div{
-    padding: 5px;
 }
 
 
@@ -220,46 +201,10 @@ form{
 
 
 
-@media only screen and (max-width:600px){
-  body{
-    background-color: aqua;
-  }
-    .header1{
-        background-color: rgb(234, 228, 228);
-        border: 1px solid rgb(0, 0, 0);
-        
-        display: flex;
-        justify-content:space-between;
-        flex-direction: column;
-        flex-wrap: no-wrap;
-        
-    }
+
+@media screen and (max-width: 700px) {
     .left{
-        margin-top: 20px;
-        margin-left: 200px;
-
-        
-    }
-    .cartimg{
-        width:30px;
-        height: 30px;
-        margin-top: 5px;
-    }
-    .shopping{
-        font-size: 13px;
-        margin-left: 10px;
-        margin-top: 12px;
-        font-size: 20px;
-    }
-    
-    .user{
-        width:30px;
-        height: 30px;
-        margin-top: 5px;
-        margin-left: 200px;
-    }
-    .right{
         display: flex;
-        margin-right: 200px;
+        margin-left: 250px;
     }
   }
