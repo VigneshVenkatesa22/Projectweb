@@ -2,12 +2,310 @@
     margin:0;
     padding:0;
 }
+
+@media only screen and (max-width:768px) {
+  .header1{
+    
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    justify-content: space-between;
+    background-color: rgb(227, 227, 227);
+    padding-top: 1px;
+    align-items: center;
+    
+
+    
+  
+   
+  }
+  .cartimg{
+    width:30px;
+    height: 30px;
+}
+.shopping{
+  font-size:25px;
+  margin-top: 0px;
+
+}
+.left{
+  display: flex;
+  padding:10px;
+  
+}
+.user{
+width: 30px;
+height:30px;;
+}
+.right{
+display: flex;
+padding:10px;
+}
+
+.header2{
+  display: flex;
+  justify-content: space-around;
+
+  border: 1px solid black;
+ 
+}
+.brand{
+  width:30px;
+  height: 30px;
+  margin-top:8px;
+}
+.number{
+  font-size: 10px;
+  margin-top:10px;
+}
+
+.navbar{
+  border:1px solid black;
+  padding: 20px;
+}
+.navbar .navsec{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.navsec .navitems{
+     list-style: none;
+    
+}
+.navlink{
+  text-decoration: none;
+  color: black;
+}
+.a{
+  padding: 10px;
+  background-color: orange;
+  color:white;
+  font-weight: bold;
+  border:1px solid orange
+}
+.content{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+ 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgb(227, 227, 227); 
+}
+
+.leftcontent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  padding: 20px;
+  
+
+}
+h1{
+  font-size: 20px;
+}
+h2{
+  font-size: 15px;
+}
+.p1{
+  margin-top:10px;
+  font-size: 13px;
+}
+.getbtn{
+  padding: 5px;
+  border: 1px solid orange;
+  background-color: orange;
+  border-radius: 3px;
+  margin-top: 10px;
+  color: white;
+  font-weight: bold;
+
+
+}
+.rightcontent{
+  padding-top:20px;
+  
+}
+
+.details{
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+input{
+width: 200px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+
+
+
+}
+
+.area{
+  width: 200px;
+  margin:0px;
+  margin-left: 40px;
+  
+}
+.bottom{
+  margin-top:1px
+}
+.msgbtn{
+  width: 100px;
+  padding:6px;
+  border: 1px solid orange;
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+  margin-left:80px}
+  .content2{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    background-color: rgb(107, 173, 244);
+  }
+  .ad{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+      }
+ .ad1{
+    padding:25px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+ 
+ .p3{
+ text-align: justify;
+ color:white;
+ font-size: 13px;
+ }
+ h3{
+    color: white;
+    font-size:20px;
+ }
+ .designBtn{
+     padding:10px;
+     width: 120px;
+     background: white;
+     color: rgb(107, 173, 244);
+     font-weight: bold;
+     border: 1px solid white;
+ }
+ .content3{
+  background-color: rgb(227, 227, 227);
+  display: flex;
+  
+  flex-direction: row;
+  justify-content: center;
+  
+  align-items: center;
+  padding:10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .vdoimg{
+      width:300px;
+      height:200px;
+   }
+   .container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding:10px;
+  
+   }
+   .p1{
+      text-align: justify;
+   }
+   .lbtn{
+      width: 150px;
+      padding:8px;
+      border: 1px solid orange;
+      background-color: orange;
+      color: white;
+      font-weight: bold;
+      margin-top: 10px;
+   }
+ 
+ .feature{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding:20px;
+ }
+ .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 250px;
+   padding:10px;
+
+ }
+ .laptop{
+    height: 100px;
+    width: 100px;
+ }
+ .desc{
+    text-align: left;
+    font-size: 10px;
+ }
+ .button{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+ }
+ .contactus{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(227, 227, 227);
+  align-items: center;
+  padding:20px;
+  font-size: 10px;
+  justify-content: center;
+}
+li{
+  list-style: none;
+}
+.help{
+  padding:20px;
+  
+  
+}
+.footer{
+  padding:20px;
+  background-color: gray;
+  color:lightgray;
+  width: 100%;
+  font-size: 10px;
+  
+}
+.copyright{
+  text-align: center;
+}
+}
+
+
+
+
+
+
 @media only screen and (max-width:600px){
   
     .header1{
       display: flex;
       flex-direction: column;
-      border: 1px solid red;
+      
       align-items: center;
       background-color: rgb(227, 227, 227);
       padding-top: 10px;
@@ -40,7 +338,7 @@
     display: flex;
     justify-content: space-around;
   
-    border: 1px solid red;
+ 
    
   }
   .brand{
@@ -53,7 +351,7 @@
     margin-top:10px;
   }
   .navbar{
-    border:1px solid red;
+ 
     padding: 10px;
   }
   .navbar .navsec{
@@ -80,16 +378,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid red;
+  
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: rgb(227, 227, 227); 
 }
 
-  .rightcontent{
+  .leftcontent{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border:1px solid green;
+   
     padding: 20px;
     
 
@@ -115,7 +413,7 @@
 
 
   }
-  .leftcontent{
+  .rightcontent{
     padding-top:20px;
     
   }
@@ -132,13 +430,13 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin:auto;
+
  
   }
   .area{
     width: 200px;
-    margin-left: 30px;
-    margin-top:px;
+  
+   
   }
   .bottom{
     margin-top:1px
@@ -150,11 +448,11 @@
     background-color: orange;
     color: white;
     font-weight: bold;
-    margin-left:80px
+    margin-left:94px
 
   }
   .content2{
-    border:1px solid green;
+   
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -193,7 +491,7 @@
     background-color: rgb(227, 227, 227);
     display: flex;
     flex-direction: column;
-    border:1px solid red;
+    
     align-items: center;
     padding:10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -221,9 +519,7 @@
         font-weight: bold;
         margin-top: 10px;
      }
-     .feature{
-        border: 1px solid yellow;
-     }
+    
      .feature{
         display: flex;
         flex-direction: column;
@@ -231,12 +527,13 @@
         padding:20px
      }
      .card{
+    
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 250px;
        padding:10px;
-       border: 0.5px solid gray;
+       
      }
      .laptop{
         height: 100px;
@@ -245,6 +542,11 @@
      .desc{
         text-align: left;
         font-size: 10px;
+     }
+     .button{
+      display: flex;
+      justify-content: center;
+      padding: 20px;
      }
      
     .contactus{
