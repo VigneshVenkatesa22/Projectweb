@@ -1,6 +1,6 @@
 @media only screen and (max-width:600px){
     .navbar{
-      border:1px solid red;
+    
       display: flex;
       background-color: darkgray;
      
@@ -25,7 +25,7 @@
     }
     .navlink{
       text-decoration: none;
-      color:rgba(207, 0, 0, 0.43);
+      color:rgba(255, 255, 255, 0.43);
       font-weight: bold;
       
     }
@@ -38,7 +38,7 @@
       height: 400px;
       width: 400px;
       margin-left: 50px;
-      background-color:rgb(61, 61, 61);
+      background-color:rgb(255, 255, 255);
       margin-top:10px;
   }
   .radixLogo{
@@ -59,18 +59,19 @@
       text-shadow: 1px 1px 5px white;
   
   }
-  .container{
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-   
-    
-  }
-  .side{
-    background-color: lightgray;
-    width: 100%;
-  }
+ div.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
  
 
-  }
+  
+ }
+ .side{
+  background-color: lightgray;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+ }
+}

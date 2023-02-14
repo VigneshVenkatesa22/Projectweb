@@ -34,12 +34,12 @@
     font-size:20px;
   }
 .htmlimg{
-  
+   margin-top:30px;
     height: 400px;
     width: 400px;
-    margin-left: 50px;
+    margin-left: 85px;
     background-color:rgb(61, 61, 61);
-    margin-top:10px;
+    padding:20px;
 }
 .radixLogo{
     height: 200px;
@@ -48,7 +48,7 @@
     box-shadow: 1px 1px 5px white;
     position: relative;
     left: 12%;
-    top:12%;
+    top:2%;
 
 }
 .head{
@@ -59,22 +59,7 @@
     text-shadow: 1px 1px 5px white;
 
 }
-.container{
-  
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-color: green;
- 
-  
-}
-.side{
-  background-color: lightgray;
-  width: 100%;
-}
-form{
-  margin-left: 100px;
-}
+
 
 
 

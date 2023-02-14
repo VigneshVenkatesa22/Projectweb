@@ -1,0 +1,110 @@
+@media only screen and (max-width:600px){
+    .navbar{
+    
+      display: flex;
+      background-color: darkgray;
+     
+      flex-direction: column;
+      align-items: center;
+      padding: 30px;
+    
+  
+    }
+    #logo{
+      width: 100px;
+      height:70px;
+      box-shadow: 1px 1px 5px white;
+    }
+    .nav{
+      display: flex;
+      flex-direction: column;
+      list-style: none;
+    }
+    .nav .navlist{
+      padding: 5px;
+    }
+    .navlink{
+      text-decoration: none;
+      color:rgba(255, 255, 255, 0.43);
+      font-weight: bold;
+      
+    }
+    .navlink:hover{
+      color: white;
+      font-size:20px;
+    }
+  .htmlimg{
+    
+      height: 400px;
+      width: 400px;
+      margin-left: 50px;
+      background-color:rgb(255, 255, 255);
+      margin-top:10px;
+  }
+  .radixLogo{
+      height: 200px;
+      width: 300px;
+      border: 1px solid rgb(255, 255, 255);
+      box-shadow: 1px 1px 5px white;
+      position: relative;
+      left: 12%;
+      top:12%;
+  
+  }
+  .head{
+      position: relative;
+      top:25%;
+     color: white;
+      text-align: center;
+      text-shadow: 1px 1px 5px white;
+  
+  }
+ div.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+
+  
+ }
+ .side{
+  background-color: lightgray;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+ }
+form{
+  display: flex;
+  flex-direction: column;
+
+
+  
+}
+.formitem{
+  padding: 10px;
+  border: 1px solid black;
+}
+.btn{
+  margin-left: 150px;
+  width: 100px;
+}
+ul.a{
+  list-style-type: square;
+}
+ol.b{
+ list-style-type: upper-roman;
+}
+table,th,td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: left;
+}
+th{
+  background-color: lightgreen;
+  text-align: center;
+}
+
+ 
+
+  }
