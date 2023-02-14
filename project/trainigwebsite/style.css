@@ -1,0 +1,81 @@
+@media only screen and (max-width:600px){
+  .navbar{
+    border:1px solid red;
+    display: flex;
+    background-color: darkgray;
+   
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+  
+
+  }
+  #logo{
+    width: 100px;
+    height:70px;
+    box-shadow: 1px 1px 5px white;
+  }
+  .nav{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+  }
+  .nav .navlist{
+    padding: 5px;
+  }
+  .navlink{
+    text-decoration: none;
+    color:rgb(218, 218, 218);
+    font-weight: bold;
+    
+  }
+  .navlink:hover{
+    color: white;
+    font-size:20px;
+  }
+.htmlimg{
+  
+    height: 400px;
+    width: 400px;
+    margin-left: 50px;
+    background-color:rgb(61, 61, 61);
+    margin-top:10px;
+}
+.radixLogo{
+    height: 200px;
+    width: 300px;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 1px 1px 5px white;
+    position: relative;
+    left: 12%;
+    top:12%;
+
+}
+.head{
+    position: relative;
+    top:25%;
+   color: white;
+    text-align: center;
+    text-shadow: 1px 1px 5px white;
+
+}
+.container{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: green;
+ 
+  
+}
+.side{
+  background-color: lightgray;
+  width: 100%;
+}
+form{
+  margin-left: 100px;
+}
+
+
+
+}
